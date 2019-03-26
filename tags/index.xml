@@ -20,4 +20,19 @@
     </item>
     
   </channel>
+</rss>/blob/master/asess-sre-level.md
+Reference  http://landing.google.com/sre/book.html  </description>
+    </item>
+    
+    <item>
+      <title>SRE概要</title>
+      <link>https://tsts.dev/post/sre/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tsts.dev/post/sre/</guid>
+      <description> SRE概要 https://github.com/tshohe/awsome-sre-jp/blob/master/asess-sre-level.md
+Reference  http://landing.google.com/sre/book.html  </description>
+    </item>
+    
+  </channel>
 </rss>

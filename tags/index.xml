@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on tshohe&#39;s website tsts</title>
+    <title>tshohe&#39;s website tsts</title>
     <link>https://tsts.dev/tags/</link>
-    <description>Recent content in Tags on tshohe&#39;s website tsts</description>
+    <description>Recent content on tshohe&#39;s website tsts</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>jp-ja</language>
     
@@ -11,16 +11,12 @@
     
     
     <item>
-      <title></title>
-      <link>https://tsts.dev/tags/</link>
+      <title>SRE概要</title>
+      <link>https://tsts.dev/post/sre/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://tsts.dev/tags/</guid>
-      <description></description>
-    </item>
-    
-  </channel>
-</rss>/blob/master/asess-sre-level.md
+      <guid>https://tsts.dev/post/sre/</guid>
+      <description> SRE概要 https://github.com/tshohe/awsome-sre-jp/blob/master/asess-sre-level.md
 Reference  http://landing.google.com/sre/book.html  </description>
     </item>
     

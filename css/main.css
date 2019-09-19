@@ -1,24 +1,131 @@
 body {
-  font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+hr {
+    border-color: #65ac65;
+}
+
+a {
+    color: #65ac65;
+}
+
+a:hover {
+    color: #1f561f;
+}
+
+.page-scroll:hover {
+    color: #1f561f;
+}
+
+.navbar-default .navbar-header .navbar-brand {
+    color: #65ac65;
+}
+
+.navbar-default .nav>li>a:focus:hover {
+    color: #1f561f;
+}
+
+.navbar-default .nav>li.active>a:focus {
+    color: #1f561f!important;
+}
+
+.navbar-default .nav > li.active>a,
+.navbar-default .nav>li.active>a:focus {
+    color: #65ac65!important;
+    background-color: transparent;
+}
+
+.navbar-default.affix .navbar-header .navbar-brand {
+    color: #65ac65;
+}
+
+.navbar-default.affix .navbar-header .navbar-brand:hover,
+.navbar-default.affix .navbar-header .navbar-brand:focus {
+    color: #1f561f;
+}
+
+.navbar-default.affix .nav > li>a:hover,
+.navbar-default.affix .nav>li>a:focus:hover {
+    color: #65ac65;
+}
+
+.portfolio-box .portfolio-box-caption {
+    background: #65ac65;
+}
+
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled.focus,
+.btn-primary[disabled].focus,
+fieldset[disabled] .btn-primary.focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+    border-color: #65ac65;
+    background-color: #65ac65;
+}
+
+.btn-primary .badge {
+    color: #65ac65;
+    background-color: #fff;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary.focus,
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+    border-color: #1f561f;
+    color: #fff;
+    background-color: #1f561f;
 }
 
 .title {
-  font-family: 'Baloo Bhaijaan', cursive;
+    font-family: 'Baloo Bhaijaan', cursive;
 }
 
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 50px;
-  padding: 10px;
-  background-color: #eee;
+.text-primary {
+    color: #65ac65;
+}
+
+.text-normal {
+    color: #333;
 }
 
 .bg-primary {
-    background-color: #8fbc8f;
+    background-color: #65ac65;
 }
 
-.main-content {
-  padding-top: 100px;
+.btn-primary {
+    border-color: #65ac65;
+    background-color: #65ac65;
+}
+
+.open > .dropdown-toggle.btn-primary {
+    border-color: #1f561f;
+    color: #fff;
+    background-color: #1f561f;
+}
+
+.footer {
+    background-color: #65ac65;
+}
+
+.top-img {
+    height: 30vh;
+    width: 100%;
+    padding: 1%;
+    object-fit: cover;
 }

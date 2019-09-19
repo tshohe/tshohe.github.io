@@ -22,6 +22,7 @@
 <!-- Custom CSS -->
 <link rel="stylesheet" href="https://tsts.dev/css/creative.css" type="text/css">
 <link rel="stylesheet" href="https://tsts.dev/css/modals.css" type="text/css">
+<link rel="stylesheet" href="css/main.css">
 
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -116,22 +117,25 @@
                 
                     <hr class="light">
                 
+                <div class="about-description">
                 
                     <p class="text-faded"><p>Web系企業のエンジニアとして主にインフラ周りの勉強中。</p>
 
 <p><a href="//tsts.hatenablog.com/">はてなブログ</a><br />
 <a href="https://qiita.com/tshohe">Qiita</a></p>
 
-<p>Interests:<br />
-Language: Python(Django, Flask), Java(Spring Boot), golang, JavaScript(React.js)<br />
+<h3 id="interests">Interests:</h3>
+
+<p>Language: Python(Django, Flask), Java(Spring Boot), golang, JavaScript(React.js)<br />
 Database: PostgreSQL
     Web: Nginx<br />
 Serverless: Lambda, Serverless Framework<br />
 Monitoring: Elastic Stack, Prometheus, Grafana<br />
-IaC: Ansible, Terraform
-    Others: Fluentd, Container tech (based on Docker)</p>
+IaC: Ansible, Terraform<br />
+Others: Fluentd, Container tech (based on Docker)</p>
 </p>
                 
+                </div>
                 
                 <a href="https://twitter.com/tshohe1?ref_src=twsrc%5Etfw"
                   class="twitter-follow-button" data-show-count="false"
@@ -206,7 +210,7 @@ IaC: Ansible, Terraform
             
                 <div class="col-lg-3 col-sm-6">
                     <a href="#portfolioModal1" class="portfolio-box portfolio-link" data-toggle="modal">
-                        <img src="img/portfolio/berikoma.jpg" class="img-responsive" alt="">
+                        <img src="img/portfolio/berikoma.jpg" class="img-responsive top-img" alt="">
                         
                             <div class="portfolio-box-caption">
                                 <div class="portfolio-box-caption-content">
@@ -228,7 +232,7 @@ IaC: Ansible, Terraform
             
                 <div class="col-lg-3 col-sm-6">
                     <a href="#portfolioModal2" class="portfolio-box portfolio-link" data-toggle="modal">
-                        <img src="img/portfolio/keyboard_01.jpg" class="img-responsive" alt="">
+                        <img src="img/portfolio/keyboard_01.jpg" class="img-responsive top-img" alt="">
                         
                             <div class="portfolio-box-caption">
                                 <div class="portfolio-box-caption-content">
@@ -250,7 +254,7 @@ IaC: Ansible, Terraform
             
                 <div class="col-lg-3 col-sm-6">
                     <a href="#portfolioModal3" class="portfolio-box portfolio-link" data-toggle="modal">
-                        <img src="img/portfolio/bath_tablet_holder.jpg" class="img-responsive" alt="">
+                        <img src="img/portfolio/bath_tablet_holder.jpg" class="img-responsive top-img" alt="">
                         
                             <div class="portfolio-box-caption">
                                 <div class="portfolio-box-caption-content">
@@ -293,7 +297,7 @@ IaC: Ansible, Terraform
                     <hr class="primary">
                 
                 
-                    <p>いいお仕事がありましたらご連絡ください。</p>
+                    <p>Please contact me if you get something worthwhile.</p>
                 
             </div>
             
@@ -340,17 +344,6 @@ IaC: Ansible, Terraform
                         
                             <p><p>我が家のホームアシスタントロボット。</p>
 
-<p>Features:</p>
-
-<ul>
-<li><p>声 or ブラウザでTVの操作</p>
-
-<p><img src="img/berikoma/home_controller.png" alt="contoller" /></p></li>
-</ul>
-
-<p>#- Move freely using HTTP request from webapp.
-  #- Wakeup PC (Wake-on-LAN) (WIP)</p>
-
 <p>Consist of:</p>
 
 <ul>
@@ -361,9 +354,28 @@ IaC: Ansible, Terraform
 <li>Infrared sender/receiver</li>
 <li>SG90</li>
 <li>Send a note on Slack by voice</li>
+<li>Raspbian</li>
 </ul>
 
-<p><video src="img/berikoma/berikoma_speak.mp4" controls width="600"></video></p>
+<p>Features:</p>
+
+<ul>
+<li><p>音声操作</p>
+
+<ul>
+<li>Google Home -&gt; Slack -&gt; Slack bot -&gt; これ</li>
+</ul></li>
+
+<li><p>ブラウザでTVの操作</p></li>
+</ul>
+
+<p><img src="img/berikoma/home_controller.png" width="50%"></img></p>
+
+<ul>
+<li>画像認識</li>
+</ul>
+
+<p><video src="img/berikoma/berikoma_speak.mp4" controls width="80%"></video></p>
 </p>
                         
                         
@@ -417,8 +429,8 @@ IaC: Ansible, Terraform
                         
                         <img src="img/portfolio/keyboard_01.jpg" class="img-responsive img-centered" alt="">
                         
-                            <p><p>左右分離型のキーボード。ただキットを組んだだけ。
-キーキャップが足りなかったので積層痕だらけのキーキャップを装着中。</p>
+                            <p><p>左右分離型のキーボード。ただキットを組んだだけなので特に語るところはない。
+キーキャップが足りなかったので積層痕だらけのキーキャップを装着している。</p>
 
 <p>Consist of:</p>
 
@@ -429,8 +441,9 @@ IaC: Ansible, Terraform
 <li>Original keycap generated by 3D Printer</li>
 </ul>
 
-<p>キーキャップ作成の過程<br />
-<script async class="speakerdeck-embed" data-id="80d12e8db9e84839b8d56b73f1c9ad9a" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script></p>
+<p>キーキャップ作成の過程
+<blockquote class="embedly-card"><h4><a href="https://speakerdeck.com/tshohe/20190712-m3-techtalk-kikiyatuhuzuo-ruhua">20190712 M3 TechTalk キーキャップ作る話</a></h4><p>null</p></blockquote>
+<script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script></p>
 </p>
                         
                         
@@ -537,13 +550,11 @@ HUAWEI MediaPad M3 Lite 10 wp + ケースでサイズピッタリくらい。<br
 
 
         <!-- FOOTER -->
-<section class="bg-success" id="footer">
-    <div class="container footer">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 text-center">
-                <p>Copyright (C) 2019 @tshohe.</p>
-                <p><a class="text-muted" href="/post/privacypolicy/">Privacy Policy</a></p>
-            </div>
+<section class="footer" id="footer">
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 text-center">
+            <p>Copyright (C) 2019 @tshohe.</p>
+            <p><a class="text-normal" href="/post/privacypolicy/">Privacy Policy</a></p>
         </div>
     </div>
 </section>

@@ -3,12 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://tsts.dev/tags/</loc>
+    <loc>https://tsts.dev/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://tsts.dev/categories/</loc>
+    <loc>https://tsts.dev/tags/</loc>
     <priority>0</priority>
   </url>
   

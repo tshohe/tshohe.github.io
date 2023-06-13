@@ -5,10 +5,6 @@
     <link>https://tsts.dev/tags/</link>
     <description>Recent content in Tags on tshohe&#39;s website tsts</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>jp-ja</language>
-    
-	<atom:link href="https://tsts.dev/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>jp-ja</language><atom:link href="https://tsts.dev/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

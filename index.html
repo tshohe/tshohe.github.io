@@ -353,11 +353,11 @@ Others: Fluentd, Container tech (based on Docker)</p>
                         
                         <img src="img/portfolio/berikoma.jpg" class="img-responsive img-centered" alt="">
                         
-                            <p><p>我が家のホームアシスタントロボット。</p>
+                            <p><p>我が家のホームアシスタントロボット。<br>
+2018/04頃ははすでに退役している。</p>
 <p>構成要素:</p>
 <ul>
 <li>Raspberry Pi</li>
-<li>TAMIYA&rsquo;s parts</li>
 <li>ANKER&rsquo;s battery</li>
 <li>Logicool&rsquo;s camera</li>
 <li>Infrared sender/receiver</li>
@@ -367,17 +367,26 @@ Others: Fluentd, Container tech (based on Docker)</p>
 </ul>
 <p>機能:</p>
 <ul>
-<li>音声操作
-<ul>
-<li>Google Home -&gt; Slack -&gt; Slack bot -&gt; これ</li>
-</ul>
-</li>
+<li>音声操作</li>
 <li>ブラウザでTVの操作</li>
+<li>画像認識して喋る</li>
 </ul>
 <p><img src="img/berikoma/home_controller.png" width="50%"></img></p>
-<ul>
-<li>画像認識</li>
-</ul>
+<h2 id="音声操作">音声操作</h2>
+<ol>
+<li>Google Home</li>
+<li>Slack</li>
+<li>Slack bot (hubot)</li>
+<li>Raspberry Pi上のAPI</li>
+<li>移動/赤外線操作等</li>
+</ol>
+<h2 id="画像認識して喋る">画像認識して喋る</h2>
+<ol>
+<li>カメラで画像撮影</li>
+<li>ローカルのWindows上のPython APIにてTensorFlowで画像識別</li>
+<li>WatsonのText to Speechで音声化（当時無償枠があった）</li>
+<li>音声を流す</li>
+</ol>
 <p><video src="https://res.cloudinary.com/tsts/video/upload/l_subtitles:berikoma_speak_jimaku.srt/berikoma_speak.mp4" controls width="80%"></video></p>
 </p>
                         

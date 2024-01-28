@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Role on tshohe&#39;s website tsts</title>
+    <link>https://tsts.dev/tags/role/</link>
+    <description>Recent content in Role on tshohe&#39;s website tsts</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>jp-ja</language><atom:link href="https://tsts.dev/tags/role/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SRE概要</title>
+      <link>https://tsts.dev/post/software_development_cycle/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tsts.dev/post/software_development_cycle/</guid>
+      <description>Software Development Cycle https://reproducible-builds.org/ 再現可能ビルド</description>
+    </item>
+    
+    <item>
+      <title>SRE概要</title>
+      <link>https://tsts.dev/post/sre/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tsts.dev/post/sre/</guid>
+      <description>SRE https://github.com/tshohe/awsome-sre-jp/blob/master/asess-sre-level.md
+イベント一覧 DevOps Enterprise Summit  略称はDOES Githubに資料が公開されている  SRECon  2014年から開催されているSRE向けカンファレンス Asiaの開催地はSingapore スライドは一部公開されているものもある  SRE Lounge  主に各社のSREが登壇して事例などを話すイベント  NoOps Meetup Tokyo  NoOps (No &amp;ldquo;Uncomfortable&amp;rdquo; Ops)関連イベント 主催は NoOps Japan Community NoOps 実現に向けて、プラットフォームや技術を超えて知見と- 経験を共有していくためのコミュニティ テーマ Architecture = Design for Resiliency（高回復性設計）/DevOps Technology = Container/Serverless/Infrastructure as Code SRE = Less Toil/Ops Automation  参考 書籍  Site Reliability Engineering The Site Reliability Workbook Building Secure &amp;amp; Reliable Systems Seeking SRE  Blog  Google Cloud Platform Japan Blog  SLO策定: https://cloudplatform-jp.</description>
+    </item>
+    
+  </channel>
+</rss>
